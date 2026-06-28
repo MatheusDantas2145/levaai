@@ -694,3 +694,89 @@ a {
     flex-direction: column;
   }
 }
+
+/* Mobile refinements: improve touch targets, stack cards, and scale typography */
+@media (max-width: 1024px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .icon-card {
+    padding: 0.9rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .illustration-card {
+    width: 100%;
+    padding: 1.25rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .feature-card,
+  .split-card,
+  .support-card,
+  .proof-card,
+  .final-card,
+  .form-panel {
+    padding: 1rem;
+    border-radius: 18px;
+  }
+
+  .input-row input,
+  .input-row select {
+    padding: 1.05rem 1rem;
+    font-size: 1rem;
+    border-radius: 14px;
+  }
+
+  .button {
+    padding: 0.95rem 1rem;
+  }
+
+  .nav-actions {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-mark {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero-trust {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .mobile-cta .button {
+    padding: 1rem 1.25rem;
+    font-weight: 800;
+  }
+
+  .topbar {
+    padding: 0.6rem 0.75rem;
+  }
+
+  .accordion-item {
+    padding: 1rem;
+  }
+}
