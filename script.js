@@ -1,5 +1,4 @@
-import { Analytics } from "@vercel/analytics/next"
-const analytics = new Analytics();
+
 const roleField = document.getElementById('role');
 const senderField = document.getElementById('senderField');
 const driverField = document.getElementById('driverField');
