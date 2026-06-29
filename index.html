@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-
+    
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LevaAí — Envie encomendas entre cidades de forma rápida, econômica e segura</title>
@@ -42,6 +42,7 @@
   <link rel="stylesheet" href="styles.css" />
 
   <!-- Meta Pixel Code -->
+   
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -257,53 +258,6 @@ src="https://www.facebook.com/tr?id=1322638563400774&ev=PageView&noscript=1"
                   <option value="motorista">Motorista</option>
                   <option value="ambos">Ambos</option>
                 </select>
-              </div>
-              <div class="input-row">
-                <label for="origin">Cidade de origem</label>
-                <input id="origin" name="origin" type="text" placeholder="Cidade de origem" required />
-              </div>
-              <div class="input-row">
-                <label for="destination">Cidade de destino</label>
-                <input id="destination" name="destination" type="text" placeholder="Cidade de destino" required />
-              </div>
-              <div class="input-row">
-                <label for="frequency">Com que frequência viaja entre cidades?</label>
-                <select id="frequency" name="frequency" required>
-                  <option value="" disabled selected>Selecione</option>
-                  <option>Todo dia</option>
-                  <option>Algumas vezes por semana</option>
-                  <option>Uma vez por semana</option>
-                  <option>Raramente</option>
-                </select>
-              </div>
-
-              <div class="input-row conditional-field" id="senderField" hidden>
-                <label for="senderCategory">O que costuma enviar?</label>
-                <select id="senderCategory" name="senderCategory">
-                  <option value="" disabled selected>Selecione</option>
-                  <option>Documentos</option>
-                  <option>Eletrônicos</option>
-                  <option>Peças</option>
-                  <option>Produtos</option>
-                  <option>Outros</option>
-                </select>
-              </div>
-
-              <div class="input-row conditional-field" id="driverField" hidden>
-                <label for="driverCapacity">Quantos assentos/vagas existem geralmente?</label>
-                <select id="driverCapacity" name="driverCapacity">
-                  <option value="" disabled selected>Selecione</option>
-                  <option>Pequeno</option>
-                  <option>Médio</option>
-                  <option>Grande</option>
-                </select>
-              </div>
-
-              <div class="checkbox-row">
-                <label class="checkbox-label">
-                  <input id="betaOptIn" name="betaOptIn" type="checkbox" />
-                  Quero participar da versão beta
-                </label>
               </div>
 
               <div class="form-status" id="formStatus" aria-live="polite"></div>
